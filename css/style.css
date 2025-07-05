@@ -19,6 +19,21 @@ header {
   background: transparent;
 }
 
+.careers-bg{
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top: 20px;
+  left: 180px;
+  /* background-color: black; */
+  color: #FFD700;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: transparent;
+}
+
 video{
   position: absolute;
   top: 0;
