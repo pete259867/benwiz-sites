@@ -53,6 +53,11 @@ video{
   z-index: 1;
 }
 
+.background-img{
+  height: auto;
+  width: 100%;
+}
+
 nav{
   flex: 1;
 }
