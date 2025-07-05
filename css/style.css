@@ -56,6 +56,9 @@ video{
 .background-img{
   height: auto;
   width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
 nav{
