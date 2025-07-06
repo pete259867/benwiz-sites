@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us | BenWiz Infoservices</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- <div class="contact-bg">
@@ -30,26 +33,40 @@
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="services.html">Services</a></li>
-          <li><a href="careers.html">Careers</a></li>
           <li><a href="about.html">About Us</a></li>
+          <li><a href="careers.html">Careers</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <!-- <section class="content contact-content">
-        <h1>Contact Us</h1>
-        <p>
-          Email:
-          <a href="mailto:support@benwizinfoservices.com"
-            >support@benwizinfoservices.com</a
+      <main>
+        <div class="form-overlay">
+          <form
+            action="https://formspree.io/f/mjkrdewg"
+            method="POST"
+            class="contact-form"
           >
-        </p>
-        <p>Phone India: +91 9910992720</p>
-        <p>Phone USA: +1 7323085607</p>
-        <p>Locations: Pune, India | New Jersey, USA</p>
-      </section> -->
+            <h2>Contact Us</h2>
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="4"
+              required
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </main>
     </main>
+
     <footer class="footer">
       <div class="footer-section company-info">
         <h2>Benwiz Infoservices</h2>
@@ -66,20 +83,21 @@
       <div class="footer-section contact-info">
         <h3>Contact Us</h3>
         <p>
-          <strong style="text-decoration: underline;" >US Office Address</strong><br />
+          <strong style="text-decoration: underline">US Office Address</strong
+          ><br />
           155 Willowbrook Blvd, Ste 110#4543<br />
           Wayne,New Jersy 07470 US
         </p>
         <p>
-          <strong style="text-decoration: underline;" >India Office</strong><br />
+          <strong style="text-decoration: underline">India Office</strong><br />
           Pune India<br />
         </p>
         <p>
-          <strong style="text-decoration: underline;" >Email</strong><br />
+          <strong style="text-decoration: underline">Email</strong><br />
           support@benwizinfoservices.com<br />
         </p>
         <p>
-          <strong style="text-decoration: underline;" >Phone</strong><br />
+          <strong style="text-decoration: underline">Phone</strong><br />
           USA: +1 (732)-308-2106<br />
           INDIA: +91 991-099-2720
         </p>
